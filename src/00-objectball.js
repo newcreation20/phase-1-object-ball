@@ -120,9 +120,9 @@ function gameObject(){
 }
 console.log(gameObject());
 
-function numPointsScored() {
-
-  return "22"
+function numPointsScored(player) {
+  
+  console.log(player)
+  // return "22"
 }
-const result = numPointsScored()
-console.log(numPointsScored);
+
